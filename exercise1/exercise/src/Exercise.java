@@ -37,8 +37,9 @@ import java.util.Scanner;
             else{
                 System.out.println("Login Failed");
             }
-            fileScanner.close();
+           
         }   
+            fileScanner.close();
            loginScanner.close();
     }
 }
